@@ -46,30 +46,30 @@ export default function Nav() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-170}
             duration={500}
           >
             About
           </Link>
           <Link
             activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Contact
-          </Link>
-          <Link
-            activeClass="active"
             to="projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-170}
             duration={500}
           >
             Projects
+          </Link>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-170}
+            duration={500}
+          >
+            Contact
           </Link>
           <button>Resume</button>
         </nav>
