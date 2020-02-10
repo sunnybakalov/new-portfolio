@@ -1,0 +1,7 @@
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  row-gap: 100px;
+  justify-items: center;
+}

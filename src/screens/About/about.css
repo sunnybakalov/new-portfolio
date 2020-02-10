@@ -1,0 +1,9 @@
+#about {
+  height: 100vh;
+}
+
+.headshot {
+  height: 240px;
+  width: 160px;
+  /* display: none; */
+}
