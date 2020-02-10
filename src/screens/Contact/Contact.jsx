@@ -23,7 +23,6 @@ const Contact = () => {
       <button>
         Contact Me
       </button>
-
     </div>
   )
 };
