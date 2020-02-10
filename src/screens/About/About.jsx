@@ -21,6 +21,7 @@ const About = () => {
           <br />
           <p>
             Here are some of the technologies that I've been working with:
+          </p>
             <ul>
               <li>React</li>
               <li>JavaScript (ES6)</li>
@@ -28,7 +29,6 @@ const About = () => {
               <li>Phoenix</li>
               <li>Postgres</li>
             </ul>
-          </p>
         </div>
         <div className="portrait">
           <img src={placeholder} alt="ERROR" className="headshot"/>

@@ -7,3 +7,16 @@
   width: 160px;
   /* display: none; */
 }
+
+.aboutContainer {
+  display: flex;
+}
+
+.aboutParagraph {
+  width: 60%;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
