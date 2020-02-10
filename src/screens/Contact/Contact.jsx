@@ -5,6 +5,7 @@ import './contact.css';
 const Contact = () => {
   return(
     <div className="container" id="contact">
+      <h2>Contact Me</h2>
       <div>
         <form>
           Name:<br/>

@@ -56,7 +56,7 @@ export default function Nav() {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-170}
+            offset={-50}
             duration={500}
           >
             Projects
@@ -66,7 +66,7 @@ export default function Nav() {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-150}
             duration={500}
           >
             Contact

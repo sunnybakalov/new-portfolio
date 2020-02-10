@@ -6,12 +6,15 @@ const Home = () => {
   return(
     <div className="homeContainer">
       <div>
-        <p>Hi, my name is</p>
-        <p>Stan Bakalov.</p>
-        <p>I build websites.</p>
+        <h2>Hi, my name is</h2>
+        <h2 className="name">Stan Bakalov.</h2>
+        <h2>I build websites.</h2>
         <br/>
         <br/>
-        <p>I am a software engineer based in Bluffdale, UT. I specialize in building and designing high-quality websites and applications.</p>
+        <p className="shortBio">
+          I am a software engineer based in Bluffdale, UT.<br/>
+          I specialize in building and designing high-quality websites and applications.
+        </p>
       </div>
       <button>
         Contact Me

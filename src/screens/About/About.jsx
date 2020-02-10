@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import '../../Main.css';
+import '../../Main.css';
 // import headshot from '../../assets/images/headshot.jpg';
 import placeholder from '../../assets/images/240.jpg';
 import './about.css';
