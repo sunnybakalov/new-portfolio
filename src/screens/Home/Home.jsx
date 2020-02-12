@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import '../../Main.css';
+import { ContactMeButton, Name, SectionContainer } from '../../assets/styles/reusables';
 
 
 const Home = () => {
   return(
-    <div className="homeContainer">
+    <SectionContainer className="homeContainer">
       <div>
         <h3>Hi, my name is</h3>
-        <h2 className="name">Stan Bakalov.</h2>
+        <Name>Sunny Bakalov.</Name>
         <h2>I build websites.</h2>
         <br/>
         <br/>
@@ -16,11 +16,11 @@ const Home = () => {
           I specialize in building and designing high-quality websites and applications.
         </p>
       </div>
-      <button>
+      <ContactMeButton href={`mailto:sunny.bakalov@gmail.com`} target="_blank">
         Contact Me
-      </button>
+      </ContactMeButton>
 
-    </div>
+    </SectionContainer>
   )
 };
 

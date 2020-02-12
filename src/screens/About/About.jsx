@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import '../../Main.css';
 // import headshot from '../../assets/images/headshot.jpg';
 import placeholder from '../../assets/images/240.jpg';
+import { SectionContainer, SectionHeading } from '../../assets/styles/reusables';
 import './about.css';
 
 
 const About = () => {
   return(
-    <div className="container" id="about">
-      <h2>About Me</h2>
+    <SectionContainer id="about">
+      <SectionHeading>About Me</SectionHeading>
       <div className="aboutContainer">
         <div className="aboutParagraph">
           <p>
@@ -34,7 +35,7 @@ const About = () => {
           <img src={placeholder} alt="ERROR" className="headshot"/>
         </div>
       </div>
-    </div>
+    </SectionContainer>
   )
 };
 

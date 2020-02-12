@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet');
 
+/* :root {
+  --main-bg: var(--champagne);
+  --main-text: var(--pineapple);
+    
+  --pineapple: #40484C;
+  --champagne: #F5F5F5;
+  --white: #F5F5F5;
+}
+
+body {
+  color: var(--main-text);
+  background: var(--main-bg);
+}
+
+.content {
+  border: 5px solid var(--main-text);
+}
+
+.dark-mode {
+  --main-bg: var(--pineapple);
+  --main-text: var(--white);
+} */
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

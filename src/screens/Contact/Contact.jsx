@@ -1,29 +1,19 @@
 import React, { useState } from 'react';
+import { ContactMeButton, SectionContainer, SectionHeading } from '../../assets/styles/reusables';
 import '../../Main.css';
 import './contact.css';
 
 const Contact = () => {
   return(
-    <div className="container" id="contact">
-      <h2>Contact Me</h2>
-      <div>
-        <form>
-          Name:<br/>
-          <input type="text" name="name" />
-          <br/>
-          Email:<br/>
-          <input type="text" name="email" />
-          <br/>
-          Message:<br/>
-          <textarea>
-          </textarea>
-          <br/>
-        </form>
-      </div>
-      <button>
+    <SectionContainer id="contact">
+      <SectionHeading>Contact Me</SectionHeading>
+      <p>
+        Feel free to contact me for freelance work, collaborations, or if you'd just like to chat.
+      </p>
+      <ContactMeButton href={`mailto:sunny.bakalov@gmail.com`} target="_blank">
         Contact Me
-      </button>
-    </div>
+      </ContactMeButton>
+    </SectionContainer>
   )
 };
 
