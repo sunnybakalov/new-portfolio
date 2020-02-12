@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet');
 
 :root {
-  --main-bg: var(--pineapple);
+  --main-bg: var(--dark);
   --main-text: var(--white);
     
-  --pineapple: #40484C;
+  --dark: #40484C;
   --white: #F5F5F5;
 }
 
@@ -15,7 +15,7 @@ body {
 
 .light-mode {
   --main-bg: var(--white);
-  --main-text: var(--pineapple);
+  --main-text: var(--dark);
 }
 
 
