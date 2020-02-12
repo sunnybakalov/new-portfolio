@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet');
 
-/* :root {
-  --main-bg: var(--champagne);
-  --main-text: var(--pineapple);
+:root {
+  --main-bg: var(--pineapple);
+  --main-text: var(--white);
     
   --pineapple: #40484C;
-  --champagne: #F5F5F5;
   --white: #F5F5F5;
 }
 
@@ -14,14 +13,12 @@ body {
   background: var(--main-bg);
 }
 
-.content {
-  border: 5px solid var(--main-text);
+.light-mode {
+  --main-bg: var(--white);
+  --main-text: var(--pineapple);
 }
 
-.dark-mode {
-  --main-bg: var(--pineapple);
-  --main-text: var(--white);
-} */
+
 
 .App-logo {
   height: 40vmin;
@@ -78,3 +75,26 @@ body {
   animation: fadeIn 500ms ease-in-out 1s both;
   cursor: pointer;
 }
+
+/* :root {
+  --main-bg: var(--champagne);
+  --main-text: var(--pineapple);
+    
+  --pineapple: #413C58;
+  --champagne: #F2E7C9;
+  --mauve: #C874D9;
+}
+
+body {
+  color: var(--main-text);
+  background: var(--main-bg);
+}
+
+.content {
+  border: 5px solid var(--main-text);
+}
+
+.dark-mode {
+  --main-bg: var(--pineapple);
+  --main-text: var(--mauve);
+} */
