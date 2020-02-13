@@ -1,5 +1,4 @@
 import React from 'react';
-import * as icon from '../../assets/images/index';
 import {
   TheProjectCard,
   ProjectCardTitle,
@@ -8,23 +7,28 @@ import {
   ProjectCardDivider
 } from './styles';
 
-const sampleProject = {
-  title: 'GreenLight',
-  github: 'https://github.com/sunnybakalov/Green-Light',
-  hosted: 'https://bootcampgreenlight.herokuapp.com/',
-  description:
-    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sit, aliquid debitis excepturi ut enim accusantium quo. Aliquam quae illum atque accusamus laboriosam nihil, voluptates et minima hic explicabo reiciendis necessitatibus corporis dicta sit, recusandae facere? Placeat nesciunt voluptates, libero natus quod voluptatibus architecto quasi quis eos, fuga porro aliquam!'
-};
+// const sampleProject = {
+//   title: 'GreenLight',
+//   github: 'https://github.com/sunnybakalov/Green-Light',
+//   hosted: 'https://bootcampgreenlight.herokuapp.com/',
+//   description:
+//     'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione sit, aliquid debitis excepturi ut enim accusantium quo. Aliquam quae illum atque accusamus laboriosam nihil, voluptates et minima hic explicabo reiciendis necessitatibus corporis dicta sit, recusandae facere? Placeat nesciunt voluptates, libero natus quod voluptatibus architecto quasi quis eos, fuga porro aliquam!'
+// };
 
-export default function ProjectCard() {
+export default function ProjectCard({
+  id,
+  title,
+  github,
+  hosted,
+  description
+}) {
   return (
-    <TheProjectCard>
-      <ProjectCardTitle>{sampleProject.title}</ProjectCardTitle>
+    <TheProjectCard key={id}>
+      <ProjectCardTitle>{title}</ProjectCardTitle>
       <ProjectCardDivider />
-      <ProjectCardDescription>
-        {sampleProject.description}
-      </ProjectCardDescription>
-      <ProjectCardLink>{sampleProject.links}</ProjectCardLink>
+      <ProjectCardDescription>{description}</ProjectCardDescription>
+      <ProjectCardLink>{github}</ProjectCardLink>
+      <ProjectCardLink>{hosted}</ProjectCardLink>
     </TheProjectCard>
   );
 }

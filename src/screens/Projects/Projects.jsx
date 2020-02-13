@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import { ProjectsContainer, SectionHeading } from '../../assets/styles/reusables';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-
+import { projects } from './listOfProjects.js';
 
 const Projects = () => {
   return(
-    <di className="container" id="projects">
+    <div className="container" id="projects">
       <SectionHeading>Projects</SectionHeading>
       <ProjectsContainer>
-        <ProjectCard />
-        {/* <img src="https://via.placeholder.com/325" alt="Error" /> */}
-        <img src="https://via.placeholder.com/325" alt="Error" />
-        <img src="https://via.placeholder.com/325" alt="Error" />
-        <img src="https://via.placeholder.com/325" alt="Error" />
-        <img src="https://via.placeholder.com/325" alt="Error" />
-        <img src="https://via.placeholder.com/325" alt="Error" />
+        {
+          projects.map(function(item, p){
+            return (
+              <ProjectCard />
+            )
+          })
+        }
       </ProjectsContainer>
-    </di>
+    </div>
   )
 };
 
