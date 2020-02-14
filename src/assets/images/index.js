@@ -4,3 +4,8 @@ export { default as burger } from './burger.png';
 export { default as moon } from './moon.png';
 export { default as sun } from './sun.png';
 export { default as greenlight } from './greenlight.png';
+export { default as elixir } from './elixir.jpg';
+export { default as js } from './js.png';
+export { default as phoenix } from './phoenix.png';
+export { default as postgres } from './postgres.png';
+export { default as react } from './react.png';

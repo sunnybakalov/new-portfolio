@@ -46,7 +46,7 @@ export default function Nav() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-170}
+            offset={-140}
             duration={500}
           >
             About

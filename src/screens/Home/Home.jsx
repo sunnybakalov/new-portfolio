@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
-import { ContactMeButton, Name, SectionContainer } from '../../assets/styles/reusables';
+import { ContactMeButton, HomeTextContainer, Name, SectionContainer, ShortBio, SubHeading } from '../../assets/styles/reusables';
 
 
 const Home = () => {
   return(
     <SectionContainer className="homeContainer">
-      <div>
+      <HomeTextContainer>
         <h3>Hi, my name is</h3>
         <Name>Sunny Bakalov.</Name>
-        <h2>I build apps & websites.</h2>
+        <SubHeading>I build apps & websites.</SubHeading>
         <br/>
-        <br/>
-        <p className="shortBio">
-          I am a software engineer based in Bluffdale, UT.<br/>
-          I specialize in building and designing high-quality websites and applications.
-        </p>
-      </div>
+        <ShortBio>
+          I am a software engineer based in Bluffdale, UT.
+          I specialize in building & designing high-quality websites and applications.
+        </ShortBio>
+      </HomeTextContainer>
       <ContactMeButton href={`mailto:sunny.bakalov@gmail.com`} target="_blank">
         Contact Me
       </ContactMeButton>
