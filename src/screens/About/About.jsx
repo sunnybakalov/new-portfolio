@@ -4,7 +4,6 @@ import * as icon from '../../assets/images/index';
 // import headshot from '../../assets/images/headshot.jpg';
 import placeholder from '../../assets/images/240.jpg';
 import { AboutMeLeftContainer, AboutParagraphContainer, Divider, SectionContainer, SectionHeading } from '../../assets/styles/reusables';
-import './about.css';
 
 
 const About = () => {

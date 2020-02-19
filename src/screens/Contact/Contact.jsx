@@ -5,9 +5,9 @@ import './contact.css';
 
 const Contact = () => {
   return(
-    <SectionContainer id="contact">
+    <SectionContainer className="contact">
       <SectionHeading>Contact Me</SectionHeading>
-      <p>
+      <p className="contactMeParagraph">
         Feel free to contact me for freelance work, collaborations, or if you'd just like to chat.
       </p>
       <ContactMeButton href={`mailto:sunny.bakalov@gmail.com`} target="_blank">

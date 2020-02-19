@@ -53,13 +53,18 @@ export const AboutParagraphContainer = styled.div`
   }
 
   .technologies {
-    display: block;
-    height: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 175px;
+
     img {
       height: 20px;
       width: 20px;
     }
     span {
+      max-width: 220px;
       padding: 10px;
       border: 1px solid #E4E9F0;
     }
@@ -68,6 +73,10 @@ export const AboutParagraphContainer = styled.div`
 
 export const AboutMeLeftContainer = styled.div`
   display: flex;
+
+  .portrait {
+    margin-left: 50px;
+  }
 `;
 
 export const ProjectsContainer = styled.div`
@@ -76,7 +85,7 @@ export const ProjectsContainer = styled.div`
   grid-column-gap: 30px;
   row-gap: 100px;
   justify-items: center;
-  padding: 0 100px 0 100px;
+  padding: 0 100px 0 0;
 `;
 
 export const SectionContainer = styled.div`
@@ -87,8 +96,17 @@ export const SectionContainer = styled.div`
     padding: 100px;
   }
 
-  #about {
+  .contactMeParagraph {
+    margin-bottom: 50px;
+  }
+
+  #about,
+  .contact {
     height: 100vh;
+  }
+
+  .contact {
+    margin-top: 100px;
   }
 `;
 
